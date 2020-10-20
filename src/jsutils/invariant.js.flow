@@ -1,0 +1,5 @@
+// @flow
+declare export default function invariant(
+  condition: mixed,
+  message?: string,
+): void;

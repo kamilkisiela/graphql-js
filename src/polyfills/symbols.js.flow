@@ -1,0 +1,10 @@
+// In ES2015 (or a polyfilled) environment, this will be Symbol.iterator
+// istanbul ignore next (See: 'https://github.com/graphql/graphql-js/issues/2317')
+declare export var SYMBOL_ITERATOR: string;
+
+// In ES2017 (or a polyfilled) environment, this will be Symbol.asyncIterator
+// istanbul ignore next (See: 'https://github.com/graphql/graphql-js/issues/2317')
+declare export var SYMBOL_ASYNC_ITERATOR: string;
+
+// istanbul ignore next (See: 'https://github.com/graphql/graphql-js/issues/2317')
+declare export var SYMBOL_TO_STRING_TAG: string;

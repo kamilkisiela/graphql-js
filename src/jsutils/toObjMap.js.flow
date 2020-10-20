@@ -1,0 +1,15 @@
+// @flow
+import objectEntries from '../polyfills/objectEntries';
+
+import type {
+  ObjMap,
+  ObjMapLike,
+  ReadOnlyObjMap,
+  ReadOnlyObjMapLike,
+} from './ObjMap';
+
+/* eslint-disable no-redeclare */
+declare export default function toObjMap<T>(obj: ObjMapLike<T>): ObjMap<T>;
+declare export default function toObjMap<T>(
+  obj: ReadOnlyObjMapLike<T>,
+): ReadOnlyObjMap<T>;

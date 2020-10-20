@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-transform-typescript",
     ["./resources/add-extension-to-import-paths", { "extension": "js" }],
     "./resources/inline-invariant"
   ],

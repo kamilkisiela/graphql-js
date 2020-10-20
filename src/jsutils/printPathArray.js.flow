@@ -1,0 +1,7 @@
+// @flow
+/**
+ * Build a string describing the path.
+ */
+declare export default function printPathArray(
+  path: $ReadOnlyArray<string | number>,
+): string;

@@ -1,0 +1,4 @@
+// @flow
+import type { ObjMap } from '../jsutils/ObjMap';
+
+declare export default function objectValues<T>(obj: ObjMap<T>): Array<T>;

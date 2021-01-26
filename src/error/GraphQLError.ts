@@ -155,15 +155,19 @@ export class GraphQLError extends Error {
       },
       nodes: {
         value: _nodes ?? undefined,
+        enumerable: false,
       },
       source: {
         value: _source ?? undefined,
+        enumerable: false,
       },
       positions: {
         value: _positions ?? undefined,
+        enumerable: false,
       },
       originalError: {
         value: originalError,
+        enumerable: false,
       },
       extensions: {
         // Coercing falsy values to undefined ensures they will not be included

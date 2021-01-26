@@ -506,7 +506,7 @@ describe('Type System: Specified scalar types', () => {
       expect(
         serialize({
           value: true,
-          valueOf() {
+          valueOf(this: any) {
             return this.value;
           },
         }),

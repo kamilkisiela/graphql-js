@@ -169,7 +169,7 @@ describe('inspect', () => {
     (Foo.prototype as any)[Symbol.toStringTag] = 'Bar';
     expect(inspect([[new Foo()]])).to.equal('[[[Bar]]]');
 
-    const objectWithoutClassName = new (function () {
+    const objectWithoutClassName = new (function (this: any) {
       this.foo = 1;
     })();
     expect(inspect([[objectWithoutClassName]])).to.equal('[[[Object]]]');

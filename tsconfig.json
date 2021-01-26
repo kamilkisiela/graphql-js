@@ -16,5 +16,5 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
-  "exclude": ["integrationTests", "**/__tests__/**", "**/__testUtils__/**"]
+  "exclude": ["integrationTests"]
 }
